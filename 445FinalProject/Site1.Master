@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_445FinalProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 style="text-align: center">Library Database Entry</h1>
+    <form id="form1" runat="server">
+        <p style="text-align: left; margin-left: 15px">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://localhost:44368/MainPage.aspx">Back to main page</asp:HyperLink>
+        </p>
+        <div style="text-align: center; font-size: x-large">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
